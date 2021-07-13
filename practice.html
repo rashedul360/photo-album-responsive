@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pactice</title>
+    <style>
+      section {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-row-gap: 20px;
+      }
+      .photo-album {
+        position: relative;
+      }
+
+      .photo-frame {
+        width: 300px;
+        overflow: hidden;
+        border: 2px solid goldenrod;
+        border-radius: 20px;
+      }
+      .photo-frame img {
+        width: 100%;
+        height: 100%;
+      }
+      .photo-frame:hover .photo-details {
+        display: block;
+        background-color: rgba(224, 178, 61, 0.5);
+        border-radius: 20px;
+        height: 100%;
+      }
+      .photo-frame:hover img {
+        transform: scale(2);
+        transition: transform 1s;
+        opacity: 0.5;
+      }
+      .photo-details {
+        position: absolute;
+        top: 0;
+        width: 300px;
+        display: none;
+      }
+      .photo-details h2 {
+        text-align: center;
+        background-color: black;
+        color: white;
+      }
+      .photo-details p {
+        text-align: justify;
+        color: white;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="photo-album">
+        <div class="photo-frame">
+          <img src="../image//02.jpg" alt="" />
+          <div class="photo-details">
+            <h2>photo title</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+              eum cumque quidem! Repellendus cum tempore vitae doloremque
+              incidunt sequi quaerat, impedit autem, expedita, molestias
+              molestiae doloribus suscipit at saepe harum inventore unde
+              voluptates eaque. Iure, autem quidem. Aperiam, quae deleniti?
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="photo-album">
+        <div class="photo-frame">
+          <img src="../image/01.jpg" alt="" />
+          <div class="photo-details">
+            <h2>photo title</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+              eum cumque quidem! Repellendus cum tempore vitae doloremque
+              incidunt sequi quaerat, impedit autem, expedita, molestias
+              molestiae doloribus suscipit at saepe harum inventore unde
+              voluptates eaque. Iure, autem quidem. Aperiam, quae deleniti?
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="photo-album">
+        <div class="photo-frame">
+          <img src="../image/01.jpg" alt="" />
+          <div class="photo-details">
+            <h2>photo title</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+              eum cumque quidem! Repellendus cum tempore vitae doloremque
+              incidunt sequi quaerat, impedit autem, expedita, molestias
+              molestiae doloribus suscipit at saepe harum inventore unde
+              voluptates eaque. Iure, autem quidem. Aperiam, quae deleniti?
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="photo-album">
+        <div class="photo-frame">
+          <img src="../image/01.jpg" alt="" />
+          <div class="photo-details">
+            <h2>photo title</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+              eum cumque quidem! Repellendus cum tempore vitae doloremque
+              incidunt sequi quaerat, impedit autem, expedita, molestias
+              molestiae doloribus suscipit at saepe harum inventore unde
+              voluptates eaque. Iure, autem quidem. Aperiam, quae deleniti?
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="photo-album">
+        <div class="photo-frame">
+          <img src="../image/01.jpg" alt="" />
+          <div class="photo-details">
+            <h2>photo title</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+              eum cumque quidem! Repellendus cum tempore vitae doloremque
+              incidunt sequi quaerat, impedit autem, expedita, molestias
+              molestiae doloribus suscipit at saepe harum inventore unde
+              voluptates eaque. Iure, autem quidem. Aperiam, quae deleniti?
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="photo-album">
+        <div class="photo-frame">
+          <img src="../image/01.jpg" alt="" />
+          <div class="photo-details">
+            <h2>photo title</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+              eum cumque quidem! Repellendus cum tempore vitae doloremque
+              incidunt sequi quaerat, impedit autem, expedita, molestias
+              molestiae doloribus suscipit at saepe harum inventore unde
+              voluptates eaque. Iure, autem quidem. Aperiam, quae deleniti?
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="photo-album">
+        <div class="photo-frame">
+          <img src="../image/01.jpg" alt="" />
+          <div class="photo-details">
+            <h2>photo title</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+              eum cumque quidem! Repellendus cum tempore vitae doloremque
+              incidunt sequi quaerat, impedit autem, expedita, molestias
+              molestiae doloribus suscipit at saepe harum inventore unde
+              voluptates eaque. Iure, autem quidem. Aperiam, quae deleniti?
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="photo-album">
+        <div class="photo-frame">
+          <img src="../image/01.jpg" alt="" />
+          <div class="photo-details">
+            <h2>photo title</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+              eum cumque quidem! Repellendus cum tempore vitae doloremque
+              incidunt sequi quaerat, impedit autem, expedita, molestias
+              molestiae doloribus suscipit at saepe harum inventore unde
+              voluptates eaque. Iure, autem quidem. Aperiam, quae deleniti?
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="photo-album">
+        <div class="photo-frame">
+          <img src="../image/01.jpg" alt="" />
+          <div class="photo-details">
+            <h2>photo title</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+              eum cumque quidem! Repellendus cum tempore vitae doloremque
+              incidunt sequi quaerat, impedit autem, expedita, molestias
+              molestiae doloribus suscipit at saepe harum inventore unde
+              voluptates eaque. Iure, autem quidem. Aperiam, quae deleniti?
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="photo-album">
+        <div class="photo-frame">
+          <img src="../image/01.jpg" alt="" />
+          <div class="photo-details">
+            <h2>photo title</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+              eum cumque quidem! Repellendus cum tempore vitae doloremque
+              incidunt sequi quaerat, impedit autem, expedita, molestias
+              molestiae doloribus suscipit at saepe harum inventore unde
+              voluptates eaque. Iure, autem quidem. Aperiam, quae deleniti?
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="photo-album">
+        <div class="photo-frame">
+          <img src="../image/01.jpg" alt="" />
+          <div class="photo-details">
+            <h2>photo title</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+              eum cumque quidem! Repellendus cum tempore vitae doloremque
+              incidunt sequi quaerat, impedit autem, expedita, molestias
+              molestiae doloribus suscipit at saepe harum inventore unde
+              voluptates eaque. Iure, autem quidem. Aperiam, quae deleniti?
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="photo-album">
+        <div class="photo-frame">
+          <img src="../image/01.jpg" alt="" />
+          <div class="photo-details">
+            <h2>photo title</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+              eum cumque quidem! Repellendus cum tempore vitae doloremque
+              incidunt sequi quaerat, impedit autem, expedita, molestias
+              molestiae doloribus suscipit at saepe harum inventore unde
+              voluptates eaque. Iure, autem quidem. Aperiam, quae deleniti?
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="photo-album">
+        <div class="photo-frame">
+          <img src="../image/01.jpg" alt="" />
+          <div class="photo-details">
+            <h2>photo title</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+              eum cumque quidem! Repellendus cum tempore vitae doloremque
+              incidunt sequi quaerat, impedit autem, expedita, molestias
+              molestiae doloribus suscipit at saepe harum inventore unde
+              voluptates eaque. Iure, autem quidem. Aperiam, quae deleniti?
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="photo-album">
+        <div class="photo-frame">
+          <img src="../image/01.jpg" alt="" />
+          <div class="photo-details">
+            <h2>photo title</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+              eum cumque quidem! Repellendus cum tempore vitae doloremque
+              incidunt sequi quaerat, impedit autem, expedita, molestias
+              molestiae doloribus suscipit at saepe harum inventore unde
+              voluptates eaque. Iure, autem quidem. Aperiam, quae deleniti?
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="photo-album">
+        <div class="photo-frame">
+          <img src="../image/01.jpg" alt="" />
+          <div class="photo-details">
+            <h2>photo title</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+              eum cumque quidem! Repellendus cum tempore vitae doloremque
+              incidunt sequi quaerat, impedit autem, expedita, molestias
+              molestiae doloribus suscipit at saepe harum inventore unde
+              voluptates eaque. Iure, autem quidem. Aperiam, quae deleniti?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
